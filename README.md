@@ -24,6 +24,6 @@ You should see the version information for PowerShell.
 To verify VMware PowerCLI installation, open PowerShell (type pwsh in the terminal) and run:
 Get-Module VMware.PowerCLI
 
-Notes
+*Notes:
 Ensure you have the necessary permissions to execute the script.
 If you encounter any issues, refer to the official documentation for troubleshooting.
