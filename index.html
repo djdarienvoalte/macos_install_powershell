@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PowerShell and VMware PowerCLI Installation</title>
+</head>
+<body>
+    <h1>PowerShell and VMware PowerCLI Installation Script</h1>
+    <p>This script installs PowerShell and VMware PowerCLI to enable the export of OVAs. Created by Darien Entwistle in 2024.</p>
+    <h2>Installation Instructions</h2>
+    <ul>
+        <li><strong>Download the Script:</strong> Clone this repository or download the <code>install_powershell_vmware.sh</code> script directly from <a href="URL1">here</a>.</li>
+        <li><strong>Run the Script:</strong> Open a terminal window. Navigate to the directory where you downloaded the script. Execute the following command to make the script executable:
+            <pre><code>chmod +x install_powershell_vmware.sh</code></pre>
+            Then run the script:
+            <pre><code>./install_powershell_vmware.sh</code></pre>
+        </li>
+        <li><strong>Verify Installation:</strong> To verify that PowerShell and VMware PowerCLI are installed, open a new terminal window and type:
+            <pre><code>pwsh --version</code></pre>
+            You should see the version information for PowerShell. To verify VMware PowerCLI installation, open PowerShell (type <code>pwsh</code> in the terminal) and run:
+            <pre><code>Get-Module VMware.PowerCLI</code></pre>
+        </li>
+    </ul>
+    <p><strong>Notes:</strong> Ensure you have the necessary permissions to execute the script. If you encounter any issues, refer to the official documentation for troubleshooting.</p>
+</body>
+</html>
